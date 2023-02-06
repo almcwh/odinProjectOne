@@ -1,0 +1,58 @@
+.header {
+    background-color: #1F2937;
+}
+
+body {
+    margin:0;
+}
+
+.hbody {
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    max-width:400px;
+}
+
+.htop {
+    display:flex;
+    justify-content: space-between;
+}
+
+.headerlogo {
+    display:flex;
+    align-self:center;
+}
+
+.title {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: extra-bold;
+}
+
+.subtext, .headerlogo, .headerlinks {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+ul {
+    padding-inline-start: 0;
+}
+
+li {
+    display:inline;
+    margin-right:16px;
+}
+
+.headersubtext {
+    display:flex;
+    gap:40px;
+}
+
+.signup {
+    background-color: #3882F6;
+    color:white;
+    width:100px;
+    border-radius: 8px;
+    border:none;
+    padding:10px;
+}
