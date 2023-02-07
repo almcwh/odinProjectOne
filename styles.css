@@ -6,16 +6,20 @@ body {
     margin:0;
 }
 
+
 .hbody {
     display:flex;
     flex-direction: column;
     flex-wrap:wrap;
     max-width:400px;
+    margin-left:300px;
+    gap:10px;
 }
 
 .htop {
     display:flex;
     justify-content: space-between;
+    margin-left:300px;
 }
 
 .headerlogo {
@@ -23,10 +27,29 @@ body {
     align-self:center;
 }
 
+.hbox {
+    display:flex;
+    justify-content: space-between;
+}
+
 .title {
     color:#F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bold;
+}
+
+.headerlinks {
+    margin-right:300px;
+}
+
+.placeholder {
+    margin-right:300px;
+    align-self:center;
+    width:400px;
+    height:150px;
+    background-color: gray;
+    text-align: center;
+    padding:150px;
 }
 
 .subtext, .headerlogo, .headerlinks {
