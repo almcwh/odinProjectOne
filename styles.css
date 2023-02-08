@@ -1,5 +1,8 @@
+/* start of header content */
+
 .header {
     background-color: #1F2937;
+    padding-bottom:105px;
 }
 
 body {
@@ -30,6 +33,7 @@ body {
 .hbox {
     display:flex;
     justify-content: space-between;
+    gap:10px;
 }
 
 .title {
@@ -43,16 +47,18 @@ body {
 }
 
 .placeholder {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
     margin-right:300px;
     align-self:center;
-    width:400px;
-    height:150px;
+    width: 500px;
+    height: 210px;
     background-color: gray;
     text-align: center;
-    padding:150px;
 }
 
-.subtext, .headerlogo, .headerlinks {
+.subtext, .headerlogo, .headerlinks, .placeholder {
     font-size: 18px;
     color:#E5E7EB;
 }
@@ -79,3 +85,6 @@ li {
     border:none;
     padding:10px;
 }
+
+/* start of body content */
+
